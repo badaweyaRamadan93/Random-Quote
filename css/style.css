@@ -3,49 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url(../images/bg.jpg);
+.container{
+    background-image: url(../images/bg1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-.content{
-    background-color: #fff;
+.over-lay{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
-    padding: 0 30px;
 }
-.content h1{
+h1{
     font-family: 'Shantell Sans', cursive;
-    padding: 30px 0;
+    padding: 50px 0;
     text-align: center;
-    color: #BBAB8C;
+    color: #fff;
 }
-.content #quote-btn{
+#quote-btn{
     font-family: 'Shantell Sans', cursive;
-    background-color: #BBAB8C;
+    background-color: #00A9FF;
+    border: 1px solid #00A9FF;
     color: #fff;
     padding: 10px 25px;
+    margin: 50px 0;
     border-radius: 20px;
-    border: none;
     margin: 25px 0;
     text-align: center;
     transition: all 0.5s;
 }
-.content #quote-btn:hover{
-    color: #BBAB8C;
+#quote-btn:hover{
+    color: #00A9FF;
     background-color: transparent;
-    border: #BBAB8C solid 1px;
+    border: #00A9FF solid 1px;
 }
-.content p, .content span{
+ p, span{
+    color: #fff;
     font-family: 'Spline Sans Mono', monospace;
     font-style: italic;
     font-size: 20px;
-}
-.quote-p{
-    padding: 25px 0;
+    margin: 30px 0;
 }
